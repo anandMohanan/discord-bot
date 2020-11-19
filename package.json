@@ -1,0 +1,26 @@
+{
+  "name": "alpha",
+  "description": "Discord music bot built with discord.js",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.3",
+    "findthelyrics": "^1.0.7",
+    "lyrics-finder": "^21.0.5",
+    "nodemon": "^2.0.6",
+    "simple-youtube-api": "^5.1.1",
+    "soundcloud-downloader": "^0.2.0",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^4.0.3",
+    "ytdl-core-discord": "^1.2.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
